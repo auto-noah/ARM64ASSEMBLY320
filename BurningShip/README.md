@@ -6,7 +6,7 @@ Your task is to write a program that creates a Burning Ship fractal image:
 
 A burning ship is closely related to the Mandelbrot set. It's just not as cliché. In a complex space, a point c=x+yi is inside the burning ship if the mapping:
 
-![image](https://github.com/auto-noah/ARM64ASSEMBLY320/assets/151595012/3bc2be3e-000e-4cfc-a475-d1e24c29bc5f)
+![Screen Shot 2024-02-14 at 9 37 55 PM](https://github.com/auto-noah/ARM64ASSEMBLY320/assets/151595012/bf575458-c104-406b-b5d3-450cb29f436d)
 
 is bounded. In this equation, Re(zn) means the real part of zn and Im(zn) is the imaginary part of zn. This means if you keep plugging z into the equation over and over again, the result does not become unbounded (growing bigger and bigger).
 
