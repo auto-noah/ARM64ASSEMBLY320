@@ -4,7 +4,7 @@ Please create a directory named perfect under system7 for this task.
 
 To make this even easier, here's a working C version of the program you will need to write:
 
-------------------------------------------------------------------------
+```
 /**
  * Program that computes all perfect 
  * numbers from 1 to 10,000!
@@ -35,7 +35,9 @@ int main()
     
     return 0;
 }
-------------------------------------------------------------------------
+```
+
+-------------------------------------------------------------------
 
 Important Rule:
 You may push only x29 and x30 to the stack - no other variables may be pushed to the stack! You must use local variables to solve this problem.
