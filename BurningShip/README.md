@@ -43,3 +43,5 @@ When you do a make, the program will be built as the executable: ship. It expect
 ./ship ship.png
 ```
 This will create a file named ship.png that is the computed burning ship image. It should look like the image above.
+
+(If you download my solution, you can build it and get the burning ship image for yourself!)
