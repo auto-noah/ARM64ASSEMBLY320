@@ -1,5 +1,5 @@
 Problem Description:
--------------------------------------------------------------------------
+---
 Your task is to write an assembly language function to count the number of digits in a base-10 number. The function will be called digitcounter:
 
 ```
