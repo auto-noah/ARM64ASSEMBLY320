@@ -1,6 +1,7 @@
 Problem Description:
 ---
 In the sorthex project, strings of bytes are considered to be two hexadecimal values. So, 11 bytes will be 22 hexadecimal values:
+
 ![image](https://github.com/auto-noah/ARM64ASSEMBLY320/assets/151595012/a0d76b0c-498b-411b-b471-4828872ffd7e)
 
 In the sorthex project, an index is for the hexadecimal value. So, index 0 would be the first hexadecimal character 'a'. Index 1 would be 'b'. Index 2 would be '8' and so on. Given an index, the byte is the index divided by 2. Index 13 is in byte 6 (13/2). If the index is even we are interested in the high four bits. If the index is odd, we are interested in the four low bits.
@@ -15,4 +16,5 @@ Please implement the following three assembly language functions:
 
 **void sorthex(void *data, int size)**
 (sorthex.S) Given an array of bytes pointed to by data and where size is the number of bytes, sort the array hexadecimal values in order. For the data above, calling sorthex(data, 11) would change the array to:
+
 ![image](https://github.com/auto-noah/ARM64ASSEMBLY320/assets/151595012/a2786ec9-8323-4df6-97db-ae66be28fd67)
